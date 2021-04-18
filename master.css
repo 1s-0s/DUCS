@@ -1,0 +1,200 @@
+@font-face {
+  font-family: "instagram";
+  src: url("./fonts/new/fontspring-demo-blue_vinyl_bold_ps_ot-webfont.woff");
+}
+@font-face {
+    font-family: "shadow";
+    src: url("./fonts/new/Shadow-7WdR.ttf");
+  }
+@font-face {
+  font-family: "josefin";
+  src: url("./fonts/new/JosefinSans-Italic-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "rocknroll";
+  src: url("./fonts/new/RocknRollOne-Regular.ttf");
+}
+body {
+  background-color: #090c10;
+  margin: 0;
+  padding: 0;
+  color: aliceblue;
+  font-family: "rocknroll";
+  font-weight: 100;
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+  font-family: "instagram";
+  font-size: 5em;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+h2{
+    color: #f3bb01;
+}
+table {
+  display: table;
+  
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vh;
+  width: 90%;
+}
+.table-row {
+  display: table-row;
+}
+.banner {
+  border: 0.5em solid #f3bb01;
+  border-radius: 1em;
+  height: 50vh;
+}
+.header-table-cell-left{
+    text-align: center;
+    width: 70%;
+}
+
+.header-table-cell-left .navigation{
+   font-size: 2em; 
+    
+}
+a{
+    color: aliceblue;
+    text-decoration: none; 
+}
+a:hover{
+    color:#f3bb01;
+}
+.table-cell img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+}
+
+.table-data {
+  border: 0.2em solid #f3bb01;
+  border-radius: 5px;
+}
+.marginRight{
+    margin-right: 50vh;
+}
+/* ---------Menu----------- */
+#menu{
+    margin-top: 8vh;
+}
+.menu-content{
+    margin-top:0;
+    table-layout: fixed ;
+}
+.menu-content .table-data{
+    border-right: 0.2em solid #f3bb01 !important;
+}
+/* ------------------------- */
+
+/* --------Testimonial------ */
+#testimonial{
+    margin-top: 8vh;
+}
+#testimonial table{
+    table-layout: fixed ;
+}
+#testimonial td{
+    padding:2vh
+}
+#testimonial .review-left{
+    border-right: 0.2em solid #f3bb01;
+}
+
+/* ---------Feedback-------- */
+#feedback{
+    margin-top: 8vh; 
+}
+#panel{
+    width: 50vw;
+    
+    padding-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.2em solid #f3bb01;
+    border-radius: .5em;
+    
+}
+.panel-container strong {
+    font-size: 1.5em;
+    line-height: 20px;
+    
+  }
+  
+  .ratings-container {
+    display: flex;
+    margin: 5vh 0;
+  }
+  
+  .rating {
+    flex: 1;
+    cursor: pointer;
+    padding: 2vh ;
+    margin: 2vh;
+  }
+  
+  .rating:hover,
+  .rating.active {
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(243, 187, 1);
+  }
+  
+  .rating img {
+    width: 40px;
+  }
+  
+  .rating small {
+    color: #555;
+    display: inline-block;
+    margin: 10px 0 0;
+  }
+  
+  .rating:hover small,
+  .rating.active small {
+    color: #111;
+  }
+  
+  .btn {
+    background-color: #302d2b;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    padding: 12px 30px;
+    font-family: inherit;
+    cursor: pointer;
+  }
+  
+  .btn:focus {
+    outline: none;
+  }
+  
+  .btn:active {
+    transform: scale(0.98);
+  }
+  
+  .fa-heart {
+    color: red;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+/* ----------------- */
+
+
+footer,
+.push {
+  height: 5vh;
+}
+
+footer {
+  text-align: center;
+  border-top: 0.2em solid #f3bb01;
+}
