@@ -163,13 +163,16 @@ a:hover{
   }
   
   .btn {
-    background-color: #302d2b;
-    color: #fff;
+    
+    text-decoration: none;
+    background-color: #f3bb01;
+    color: #090c10;
     border: 0;
     border-radius: 4px;
     padding: 12px 30px;
     font-family: inherit;
     cursor: pointer;
+    margin-bottom: 2vh;
   }
   
   .btn:focus {
