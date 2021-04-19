@@ -10,10 +10,10 @@ Maid Cafe!
 
 **Screenshot**
 
-<img src="">
+<img src="https://github.com/1s-0s/DUCS/blob/main/Screenshot/top.JPG">
 
-<img src="">
+<img src="https://github.com/1s-0s/DUCS/blob/main/Screenshot/menu.JPG">
 
-<img src="">
+<img src="https://github.com/1s-0s/DUCS/blob/main/Screenshot/testi.JPG">
 
-<img src="">
+<img src="https://github.com/1s-0s/DUCS/blob/main/Screenshot/feed.JPG">
